@@ -95,11 +95,11 @@ const handleGenerate = async () => {
     <div className="min-h-screen bg-gradient-to-br from-purple-50 to-blue-50 p-4">
       <div className="max-w-4xl mx-auto">
         <div className="text-center mb-8">
-          <h1 className="text-4xl font-bold text-gray-900 mb-2 flex items-center justify-center gap-2">
+          <h1 className="whitespace-nowrap text-4xl font-bold text-gray-900 mb-2 flex items-center justify-center gap-2">
             <Sparkles className="w-8 h-8 text-purple-600" />
             PromptBot Studio
           </h1>
-          <p className="text-gray-600">Transform your ideas into stunning visuals with AI</p>
+          <p className="text-gray-600 whitespace-nowrap">Transform your ideas into stunning visuals with AI</p>
         </div>
 
         <div className="grid lg:grid-cols-2 gap-8">
